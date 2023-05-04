@@ -1,0 +1,4 @@
+function allMyFunctions(){
+    lastUpdated(); 
+    year(); 
+} 

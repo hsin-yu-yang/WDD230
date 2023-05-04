@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+header,
+h1,
+h2,
+h3,
+h4,
+footer,
+ul,
+il,
+ol {
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+nav,
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+
+    color: white;
+    background-color: #259ed9;
+    text-align: center;
+    padding: .2rem;
+}
+
+nav {
+    font-size: 25px;
+}
+
+.headingpage1,
+.headingpage2,
+.headingpage3,
+.headingpage4 {
+    font-size: 25px;
+    color: #91cfec;
+}
+
+
+
+
+
+h1 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 23px;
+}
+
+h4,
+p {
+    font-size: 20px;
+}
+
+ul,
+li,
+ol {
+    font-size: 18px;
+}
+
+footer {
+    color: white;
+    background-color: #259ed9;
+    padding: 1rem;
+    text-align: center;
+}
+
+header,
+footer {
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header,
+nav,
+main,
+footer {
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+main{
+    padding:10px;
+}
+
+
+nav {
+    background-color: #91cfec;
+    text-align: center;
+    box-shadow: 0 5px 15px gray;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.70rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+
+nav a:hover {
+    background-color: #c3e4f3;
+
+    color: black;
+}
+
+
+.byu {
+    color: white;
+    background-color: transparent;
+
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 2px;
+}
+
+th {
+    text-align: left;
+}
+
+.sample1 {
+    font-family: 'Yusei Magic', sans-serif;
+    background-color: #259ed9;
+    color: white;
+    font-size: 30px;
+}
+
+.sample2 {
+    font-family: 'Lato', sans-serif;
+    background-color: #91cfec;
+    color: white;
+    font-size: 25px;
+
+}
+
+.sample3 {
+    font-family: 'Yusei Magic', sans-serif;
+    color: black;
+    font-size: 25px;
+}
+
+.sample4 {
+    font-family: 'Yusei Magic', sans-serif;
+    color: black;
+    font-size: 22px;
+}
+
+.sample5 {
+    font-family: 'Yusei Magic', sans-serif;
+    color: #91cfec;
+    font-size: 20px;
+}
+
+.sample6 {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 18px;
+}
+
+.colors {
+    width: 100%;
+}
