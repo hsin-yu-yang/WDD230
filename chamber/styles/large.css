@@ -1,0 +1,155 @@
+@media only screen and (min-width: 845px)
+{
+    body {
+        margin: 10px auto;
+        transition: margin 1s;
+    }
+    header h1 {
+        font-size: 3em;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
+    #burger-menu {
+        width: 100%;
+        max-width: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        top: 0;
+        animation-name: none;
+        background-color: unset;
+    }
+    #burger-menu > ul:nth-child(1) {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+
+    }
+    #burger-menu > ul:nth-child(2) {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+
+    }
+    #burger-menu li {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #burger-button {
+        display: none;
+    }
+    #menu-mask {
+        z-index: -1;
+    }
+    main {
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+    #hero {
+        grid-column: 2/3;
+        grid-row: 1/3;
+        /*aspect-ratio: unset; */
+    }
+
+    #event {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        aspect-ratio: 1/1;
+        background-image: radial-gradient(rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, .1)), url(../images/event_wax_bg_300.webp);
+    }
+    #weather {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        aspect-ratio: 1/1;
+        background-image: radial-gradient(rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, .1)), url(../images/weather_clouds_bg_300.webp);
+    }
+    #join {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        aspect-ratio: 1/1;
+        background-image: radial-gradient(rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, .1)), url(../images/join_card_bg_300.webp);
+    }
+    #news {
+        grid-column: 2/3;
+        grid-row: 3/4;
+        aspect-ratio: unset;
+        background-image: radial-gradient(rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, .1)), url(../images/news_ev_bg_500.webp);
+    }
+    #spotlights {
+        grid-column: 3/4;
+        grid-template-columns: none;
+        grid-row: 1/4;
+        aspect-ratio: unset;
+        gap: unset;
+        align-content: space-between;        
+    }
+    #gallery {
+        grid-column: 2/3;
+        grid-row: 3/5;
+    }
+    #stats {
+        grid-column: 3/4;
+        grid-row: 1/4;
+    }
+    #discovery {
+        grid-column: 1/2;
+        grid-row: 1/4;
+    }
+    #spotlights > *:nth-child(1){
+        grid-column: 1/2;
+        grid-row: 1/2;
+        background-image: radial-gradient(rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, .1)), url(../images/spotlight_garbage_bg_250.webp);
+    }
+    #spotlights > *:nth-child(2){
+        grid-column: 1/2;
+        grid-row: 2/3;
+        background-image: radial-gradient(rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, .1)), url(../images/spotlight_restaurant_bg_250.webp);
+    }
+    #spotlights > *:nth-child(3) {
+        display: block;
+        grid-column: 1/2;
+        grid-row: 3/4;
+        background-image: radial-gradient(rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, .1)), url(../images/spotlight_hub_bg_250.webp);
+    }
+    #spotlights > * {
+        aspect-ratio: 1/1;
+        align-self: center;
+    }
+    #join-form {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    #member-benefits {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+    #wide-hero {
+        grid-column: 1/4;
+    }
+    #join-greeting {
+        grid-column: 1/2;
+    }
+    #response {
+        grid-column: 2/3;
+    }
+    #blurb {
+        grid-column: 1/2;
+        grid-row: 2/4;
+    }
+    #contact-map {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        aspect-ratio: 2/1;
+    }
+    #contact-form {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    #contact-trad {
+        grid-column: 3/4;
+        grid-row: 2/4;
+    }
+
+}

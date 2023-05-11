@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="The Unofficial Taiwan Taoyuan chamber of commerce website. The first stop in connecting with businesses in the Taoyuan.">
+    <title>Taoyuan Chamber of Commerce</title>
+    <link href="images/favicon.ico" rel="icon" type="image/icon">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&family=Oswald:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="banner">
+            <img src="images/logo.jpeg" width=100 height=100 alt="Taoyuan chamber of commerce logo">
+            <h1>Taoyuan Chamber of Commerce</h1>
+            <div id="current-date">date</div>
+        </div>
+        <nav>
+            <div id="burger-button">
+                <img src="images/burger.svg" id="burger-open" width=30 height=30 alt="menu button">
+                <img src="images/close.svg" id="burger-close" class="hidden" width=30 height=30 alt="menu button">
+            </div>
+            <div id="menu-mask">
+                &nbsp;
+            </div>
+            <div id="burger-menu" class="hidden">
+                <ul>
+                    <li>
+                        <a href="#" class="menu-selected">Home</a>
+                    </li>
+                    <li>
+                        <a href="discover.html">Discover</a>
+                    </li>
+                    <li>
+                        <a href="directory.html">Directory</a>
+                    </li>
+                    <li>
+                        <a href="join.html">Join</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/places/Things-to-do-in-Taoyuan-District-Taoyuan/109526399066760/" target="_blank"><img
+                                src="images/facebook-icon.svg" width=30 height=30 alt="Facebook link"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/taoyuanilive/" target="_blank"><img src="images/Instagram_icon.png"
+                                width=30 height=30 alt="Instagram link"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="hero">
+            <picture>
+                <img src="images/landscape.webp" alt="View of Fremont from above.">
+            </picture>
+            <h2>
+                Taoyuan loves its beautiful landscapes
+            </h2>
+            <div class="join-button"><a href="join.html">JOIN</a></div>
+        </div>
+        <div id="event">
+            <div class="gradient-backdrop">
+                <h2>Events</h2>
+                <p>#Pop Music,Food,Outdoor & Taoyuan Sunlight Arena 6:00PM - 9:00PM Jun 03, 2023</p>
+            </div>
+        </div>
+        <div id="weather">
+            <div class="gradient-backdrop">
+                <h2>Weather</h2>
+            </div>
+            <div id="weather-display">
+                <div>
+                    <img src="images/weather-sunny.svg" id="weather-icon" alt="Sunny icon">
+                    <span id="temperature"></span> ℉<hr>
+                    <span id="weather-description">Partly Cloudy</span><hr>
+                </div>
+                <div>
+                    Wind Speed: <span id="wind-speed">Err</span> m/h<hr>
+                    Wind Chill: <span id="wind-chill">Err</span> ℉
+                </div>
+            </div>
+        </div>
+        <div id="news">
+            <div class="gradient-backdrop">
+                <h2>Offer</h2>
+                <p> Ensuring a greener future for the region</p>
+            </div>
+        </div>
+        <div id="spotlights">
+            <div class="spotlight1">
+                <div class="gradient-backdrop">
+                    <h2>Tool</h2>
+                    <p>There are people for that</p>
+                </div>
+            </div>
+            <div class="spotlight2">
+                <div class="gradient-backdrop">
+                    <h2>Restaurant Supplies</h2>
+                    <p>They have them.</p>
+                </div>
+            </div>
+            <div class="spotlight3">
+                <div class="gradient-backdrop">
+                    <h2>Club</h2>
+                    <p>There are some stores around here.</p>
+                </div>
+            </div>
+        </div>
+        <div id="join">
+            <div class="gradient-backdrop">
+                <p> Come where you belong!</p>
+            </div>
+            <div class="join-button"><a href="join.html">JOIN</a></div>
+        </div>
+
+    </main>
+    <footer>
+        <img id="footer-logo" src="images/logo.jpeg" width="50" height="50" alt="Taoyuan chamber of commerce logo">
+        <div class="contact-info"><a href="https://eng.taiwan.net.tw/m1.aspx?sNo=0002107" target="_blank">9F., No. 290, Sec. 4, Zhongxiao E. Rd., Da’an District, Taipei City 106433, Taiwan</a><br>
+            Phone: +886-2-2349-1500 | Taoyuan@business.com</div>
+        <div class="author">&copy;<span id="year-field"></span> <a href="https://hsin-yu-yang.github.io/WDD230/"
+                target="_blank">Ella Yang</a> - WDD 230 Project - Last Updated: <span id="last-update-field"></span>
+        </div>
+    </footer>
+    <script src="scripts/datestamp.js"></script>
+</body>
+
+</html>
