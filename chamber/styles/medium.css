@@ -87,7 +87,7 @@
     #news {
         grid-column: 1/3;
         grid-row: 2;
-        background-image: radial-gradient(rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, .1)), url(../images/job_1000x1000.png);
+        background-image: radial-gradient(rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, .1)), url(../images/job_1000x1000.webp);
     }
 
     #spotlights {
@@ -111,7 +111,7 @@
         grid-column: 1/2;
         grid-row: 5;
         aspect-ratio: unset;
-        background-image: radial-gradient(rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, .1)), url(../images/event_500x500.png);
+        background-image: radial-gradient(rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, .1)), url(../images/event_500x500.webp);
     }
 
     #weather {
