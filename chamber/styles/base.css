@@ -254,7 +254,7 @@ main {
 
 #join {
     background-image: radial-gradient(rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.1)),
-        url(../images/join_card_bg_400.webp);
+        url(../images/job.png);
     display: none;
     grid-template-rows: auto 1fr;
     min-height: 10em;
@@ -262,7 +262,7 @@ main {
 
 #event {
     background-image: radial-gradient(rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.1)),
-        url(../images/event_wax_bg_400.webp);
+        url(../images/event.png);
 }
 
 #weather {

@@ -1,0 +1,121 @@
+{
+    "businesses": [
+        {
+            "name": "Taiwan Taoyuan Taimall Store",
+            "street1": "No. 1, Section 3, Zhonghua Road",
+            "street2": "",
+            "city": "Taoyuan City",
+            "state": "Taiwan",
+            "zip": "330",
+            "level": "Bronze",
+            "phone": "(886)3-333-1234",
+            "url": "https://www.taimall.com.tw/",
+            "imgurl": "images/directory/Taimall.webp",
+            "bg": "generic"
+        },
+        {
+            "name": "Taiwan Taoyuan Nissan Showroom",
+            "street1": "No. 123, Xinyi Road",
+            "street2": "",
+            "city": "Taoyuan City",
+            "state": "Taiwan",
+            "zip": "330",
+            "level": "Gold",
+            "phone": "(886)3-888-5678",
+            "url": "https://www.nissan.co.jp/crossing/en/",
+            "imgurl": "images/directory/Nissan.png",
+            "bg": "nissan"
+        },
+        {
+            "name": "Taiwan Taoyuan Bank",
+            "street1": "No. 456, Minsheng Road",
+            "street2": "",
+            "city": "Taoyuan City",
+            "state": "Taiwan",
+            "zip": "330",
+            "level": "Silver",
+            "phone": "(886)3-777-9876",
+            "url": "https://www.megabank.com.tw/personal",
+            "imgurl": "images/directory/Bank.png",
+            "bg": "generic"
+        },
+        {
+            "name": "Taiwan Taoyuan Sushi Restaurant",
+            "street1": "No. 789, Zhongzheng Road",
+            "street2": "",
+            "city": "Taoyuan City",
+            "state": "Taiwan",
+            "zip": "330",
+            "level": "Bronze",
+            "phone": "(886)3-555-4321",
+            "url": "https://tw.hamazushi.com/",
+            "imgurl": "images/directory/hamazushi.png",
+            "bg": "generic"
+        },
+        {
+            "name": "Taiwan Taoyuan Pizza Hut",
+            "street1": "No. 987, Fuqian Road",
+            "street2": "",
+            "city": "Taoyuan City",
+            "state": "Taiwan",
+            "zip": "330",
+            "level": "Gold",
+            "phone": "(886)3-222-6789",
+            "url": "https://www.pizzahut.com.tw/place/",
+            "imgurl": "images/directory/pizzahut.png",
+            "bg": "bronco"
+        },
+        {
+            "name": "Taiwan Taoyuan Game Center",
+            "street1": "No. 654, Xianfu Road",
+            "street2": "",
+            "city": "Taoyuan City",
+            "state": "Taiwan",
+            "zip": "330",
+            "level": "Silver",
+            "phone": "(886)3-444-5678",
+            "url": "https://global.rakuten.com/corp/",
+            "imgurl": "images/directory/rakuten.png",
+            "bg": "generic"
+        },
+        {
+            "name": "Taiwan Taoyuan Authentic Cuisine",
+            "street1": "No. 246, Renai Road",
+            "street2": "",
+            "city": "Taoyuan City",
+            "state": "Taiwan",
+            "zip": "330",
+            "level": "Bronze",
+            "phone": "(886)3-999-2468",
+            "url": "https://www.thaij.com/",
+            "imgurl": "images/directory/thaij.png",
+            "bg": "generic"
+        },
+        {
+            "name": "Taiwan Taoyuan Coffee House",
+            "street1": "No. 135, Nanmen Road",
+            "street2": "",
+            "city": "Taoyuan City",
+            "state": "Taiwan",
+            "zip": "330",
+            "level": "Gold",
+            "phone": "(886)3-777-1111",
+            "url": "https://www.facebook.com/woolycafe/",
+            "imgurl": "images/directory/woolycafe.png",
+            "bg": "bk"
+        },
+        {
+            "name": "Taiwan Taoyuan International School",
+            "street1": "No. 789, Heping Road",
+            "street2": "",
+            "city": "Taoyuan City",
+            "state": "Taiwan",
+            "zip": "330",
+            "level": "NP",
+            "phone": "(886)3-888-9999",
+            "url": "https://www.dysh.tyc.edu.tw/home",
+            "imgurl": "images/directory/dy.gif",
+            "bg": "generic"
+        }
+    ]
+}
