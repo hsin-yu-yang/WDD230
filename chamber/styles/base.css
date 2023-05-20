@@ -248,13 +248,13 @@ main {
 
 #news {
     background-image: radial-gradient(rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.1)),
-        url(../images/news_ev_bg_400.webp);
+        url(../images/job.png);
         min-height: 10em;
 }
 
 #join {
     background-image: radial-gradient(rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.1)),
-        url(../images/job.png);
+        url(../images/join_card_bg_400);
     display: none;
     grid-template-rows: auto 1fr;
     min-height: 10em;
