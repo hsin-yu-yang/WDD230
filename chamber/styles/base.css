@@ -248,13 +248,13 @@ main {
 
 #news {
     background-image: radial-gradient(rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.1)),
-        url(../images/job.png);
+        url(../images/job.webp);
         min-height: 10em;
 }
 
 #join {
     background-image: radial-gradient(rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.1)),
-        url(../images/join_card_bg_400);
+        url(../images/join_card_bg_400.webp);
     display: none;
     grid-template-rows: auto 1fr;
     min-height: 10em;
@@ -262,7 +262,7 @@ main {
 
 #event {
     background-image: radial-gradient(rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.1)),
-        url(../images/event.png);
+        url(../images/event.webp);
 }
 
 #weather {
