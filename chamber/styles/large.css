@@ -59,7 +59,7 @@
         aspect-ratio: 1/1;
         background-image: radial-gradient(rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, .1)), url(../images/event_300x300.png);
     }
-    #weather {
+    #windchill {
         grid-column: 1/2;
         grid-row: 2/3;
         aspect-ratio: 1/1;

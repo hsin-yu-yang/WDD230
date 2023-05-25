@@ -1,7 +1,7 @@
 // select HTML elements in the document
 const temperature = document.querySelector('#temperature');
-const icon = document.querySelector('#weather-icon');
-const description = document.querySelector('#weather-description');
+const icon = document.querySelector('#windchill-icon');
+const description = document.querySelector('#windchill-description');
 const windSpeed = document.querySelector('#wind-speed');
 const windChill = document.querySelector('#wind-chill');
 

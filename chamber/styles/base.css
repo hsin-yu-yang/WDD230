@@ -182,7 +182,7 @@ main {
 
 #hero,
 #event,
-#weather,
+#windchill,
 #news,
 #spotlights,
 #join,
@@ -265,17 +265,17 @@ main {
         url(../images/event.webp);
 }
 
-#weather {
+#windchill {
     background-image: radial-gradient(rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.1)),
         url(../images/weather_clouds_bg_400.webp);
     aspect-ratio: unset;
 }
 
-#weather>div.gradient-backdrop>h2 {
+#windchill>div.gradient-backdrop>h2 {
     margin-bottom: 0;
 }
 
-#weather>div#weather-display {
+#windchill>div#windchill-display {
     color: rgb(255, 255, 255);
     text-shadow: 0px 2px 2px black;
     padding: 20px;
@@ -284,11 +284,11 @@ main {
     border-radius: 5px;
 }
 
-#weather-display>div:nth-child(2) {
+#windchill-display>div:nth-child(2) {
     clear: both;
 }
 
-#weather-icon {
+#windchill-icon {
     width: 30%;
     float: left;
 }
@@ -301,7 +301,7 @@ main {
     clear: both;
 }
 
-#weather-description {
+#windchill-description {
     clear: both;
     font-weight: bold;
 }

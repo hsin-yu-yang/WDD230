@@ -114,7 +114,7 @@
         background-image: radial-gradient(rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, .1)), url(../images/event_500x500.webp);
     }
 
-    #weather {
+    #windchill {
         grid-column: 2/3;
         grid-row: 5;
         aspect-ratio: unset;
