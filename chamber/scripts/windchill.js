@@ -5,7 +5,7 @@ const description = document.querySelector('#windchill-description');
 const windSpeed = document.querySelector('#wind-speed');
 const windChill = document.querySelector('#wind-chill');
 
-const url = "https://api.openweathermap.org/data/2.5/weather?q=Fremont&units=imperial&appid=3b3063fe321e289fc470d76eaa47f24d";
+const url = "https://api.openweathermap.org/data/2.5/weather?q=taoyuan&appid=7040ea904442a45d6950ba584410ce59";
 
 async function apiFetch() {
     try {
